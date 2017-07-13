@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameGenerator", "NameGenerator\NameGenerator.csproj", "{E33DAD5B-864B-45DF-B471-F2C648EBC5EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resources", "Resources\Resources.csproj", "{61EB6CE3-92C8-46D1-8080-CDF06AC6FC78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameGeneratorTests", "NameGeneratorTests\NameGeneratorTests.csproj", "{A00F612F-B6ED-4558-9A13-BAD1FC9EFD74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E33DAD5B-864B-45DF-B471-F2C648EBC5EF}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{E33DAD5B-864B-45DF-B471-F2C648EBC5EF}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{E33DAD5B-864B-45DF-B471-F2C648EBC5EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E33DAD5B-864B-45DF-B471-F2C648EBC5EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61EB6CE3-92C8-46D1-8080-CDF06AC6FC78}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{61EB6CE3-92C8-46D1-8080-CDF06AC6FC78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A00F612F-B6ED-4558-9A13-BAD1FC9EFD74}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{A00F612F-B6ED-4558-9A13-BAD1FC9EFD74}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{A00F612F-B6ED-4558-9A13-BAD1FC9EFD74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A00F612F-B6ED-4558-9A13-BAD1FC9EFD74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
