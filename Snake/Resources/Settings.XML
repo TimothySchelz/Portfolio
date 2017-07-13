@@ -1,0 +1,12 @@
+﻿<SnakeSettings>
+  <BoardWidth>150</BoardWidth>
+  <BoardHeight>150</BoardHeight>
+  <MSPerFrame>33</MSPerFrame>
+  <FoodDensity>10</FoodDensity>
+  <headroom>10</headroom>
+  <snakeLength>8</snakeLength>
+  <TronMode>false</TronMode>
+  <ExtraWalls>false</ExtraWalls>
+  <SurvivalMode>false</SurvivalMode>
+  <SnakeRecycleRate>0.35</SnakeRecycleRate>
+</SnakeSettings>

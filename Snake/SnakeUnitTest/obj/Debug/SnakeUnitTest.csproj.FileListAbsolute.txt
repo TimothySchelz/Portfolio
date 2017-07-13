@@ -1,0 +1,16 @@
+C:\Users\TimothySchelz\Source\Repos\CS3500\Snake\SnakeUnitTest\bin\Debug\SnakeUnitTest.dll
+C:\Users\TimothySchelz\Source\Repos\CS3500\Snake\SnakeUnitTest\bin\Debug\SnakeUnitTest.pdb
+C:\Users\TimothySchelz\Source\Repos\CS3500\Snake\SnakeUnitTest\bin\Debug\Food.dll
+C:\Users\TimothySchelz\Source\Repos\CS3500\Snake\SnakeUnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\TimothySchelz\Source\Repos\CS3500\Snake\SnakeUnitTest\bin\Debug\NetworkController.dll
+C:\Users\TimothySchelz\Source\Repos\CS3500\Snake\SnakeUnitTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\TimothySchelz\Source\Repos\CS3500\Snake\SnakeUnitTest\bin\Debug\Snake.dll
+C:\Users\TimothySchelz\Source\Repos\CS3500\Snake\SnakeUnitTest\bin\Debug\World.dll
+C:\Users\TimothySchelz\Source\Repos\CS3500\Snake\SnakeUnitTest\bin\Debug\Food.pdb
+C:\Users\TimothySchelz\Source\Repos\CS3500\Snake\SnakeUnitTest\bin\Debug\NetworkController.pdb
+C:\Users\TimothySchelz\Source\Repos\CS3500\Snake\SnakeUnitTest\bin\Debug\Snake.pdb
+C:\Users\TimothySchelz\Source\Repos\CS3500\Snake\SnakeUnitTest\bin\Debug\World.pdb
+C:\Users\TimothySchelz\Source\Repos\CS3500\Snake\SnakeUnitTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\TimothySchelz\Source\Repos\CS3500\Snake\SnakeUnitTest\obj\Debug\SnakeUnitTest.csprojResolveAssemblyReference.cache
+C:\Users\TimothySchelz\Source\Repos\CS3500\Snake\SnakeUnitTest\obj\Debug\SnakeUnitTest.dll
+C:\Users\TimothySchelz\Source\Repos\CS3500\Snake\SnakeUnitTest\obj\Debug\SnakeUnitTest.pdb

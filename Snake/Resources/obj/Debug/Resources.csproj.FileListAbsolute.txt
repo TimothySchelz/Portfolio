@@ -1,0 +1,7 @@
+C:\Users\TimothySchelz\Source\Repos\CS3500\Snake\Resources\bin\Debug\Resources.dll.config
+C:\Users\TimothySchelz\Source\Repos\CS3500\Snake\Resources\bin\Debug\Resources.dll
+C:\Users\TimothySchelz\Source\Repos\CS3500\Snake\Resources\bin\Debug\Resources.pdb
+C:\Users\TimothySchelz\Source\Repos\CS3500\Snake\Resources\bin\Debug\Newtonsoft.Json.dll
+C:\Users\TimothySchelz\Source\Repos\CS3500\Snake\Resources\bin\Debug\Newtonsoft.Json.xml
+C:\Users\TimothySchelz\Source\Repos\CS3500\Snake\Resources\obj\Debug\Resources.dll
+C:\Users\TimothySchelz\Source\Repos\CS3500\Snake\Resources\obj\Debug\Resources.pdb

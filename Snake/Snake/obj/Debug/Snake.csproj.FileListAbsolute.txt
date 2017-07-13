@@ -1,0 +1,7 @@
+C:\Users\TimothySchelz\Source\Repos\CS3500\Snake\Snake\bin\Debug\Snake.dll
+C:\Users\TimothySchelz\Source\Repos\CS3500\Snake\Snake\bin\Debug\Snake.pdb
+C:\Users\TimothySchelz\Source\Repos\CS3500\Snake\Snake\bin\Debug\Newtonsoft.Json.dll
+C:\Users\TimothySchelz\Source\Repos\CS3500\Snake\Snake\bin\Debug\Newtonsoft.Json.xml
+C:\Users\TimothySchelz\Source\Repos\CS3500\Snake\Snake\obj\Debug\Snake.csprojResolveAssemblyReference.cache
+C:\Users\TimothySchelz\Source\Repos\CS3500\Snake\Snake\obj\Debug\Snake.dll
+C:\Users\TimothySchelz\Source\Repos\CS3500\Snake\Snake\obj\Debug\Snake.pdb
