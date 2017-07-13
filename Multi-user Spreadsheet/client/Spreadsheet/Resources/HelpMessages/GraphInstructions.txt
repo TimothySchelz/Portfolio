@@ -1,0 +1,21 @@
+﻿The spreadsheet can create a Line graph of two ranges of cells.
+
+1-Go to the top of the spreadsheet and click graph.
+2-Go down the graph menu drop down and click on Create Line Graph
+3-A pop up will appear for a X Range of cells, input the desired X range of cells then click ok. (e.q a1-a6)
+4-A pop up will appear for a Y Range of cells, input the desired Y range of cells then click ok. (e.q a1-f1)
+
+A new window will appear with the graph. Graph input ranges can be inputted backwards or forwards, up the spreadsheet or down the spreadsheet.
+
+The ranges must follow a few rules:
+		
+A-The ranges must be continuous. Meaning the cells have to be linked left to right, right to left, up to down or down to up. (diagnals do not work)
+The way the graph appears can change depending on how the range is input. This gives you more flexibility and makes it so cells do not have to be input in a certain way to be graphed.
+
+B-The X Range of Cells and the Y Range of cells must have an equal number of cells in them.
+
+C-All of the Cells in both the X Range and Y Range must have numeric values. 
+
+Example of ranges:
+	X-Range: b8-b1
+	Y-Range: a1-h1

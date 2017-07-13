@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SpreadsheetUtilities</name>
+    </assembly>
+    <members>
+        <!-- Badly formed XML comment ignored for member "T:SpreadsheetUtilities.DependencyGraph" -->
+        <member name="F:SpreadsheetUtilities.DependencyGraph.dependencies">
+            <summary>
+            The map of Nodes keyed by the Nodes' Ids.
+            </summary>
+        </member>
+        <member name="F:SpreadsheetUtilities.DependencyGraph.dependencyCount">
+            <summary>
+            The number of depenency relationships
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.#ctor">
+            <summary>
+            Creates an empty DependencyGraph.
+            </summary>
+        </member>
+        <member name="P:SpreadsheetUtilities.DependencyGraph.Size">
+            <summary>
+            The number of ordered pairs in the DependencyGraph.
+            </summary>
+        </member>
+        <member name="P:SpreadsheetUtilities.DependencyGraph.Item(System.String)">
+            <summary>
+            The size of dependees(s).
+            This property is an example of an indexer.  If dg is a DependencyGraph, you would
+            invoke it like this:
+            dg["a"]
+            It should return the size of dependees("a")
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.HasDependents(System.String)">
+            <summary>
+            Reports whether dependents(s) is non-empty.
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.HasDependees(System.String)">
+            <summary>
+            Reports whether dependees(s) is non-empty.
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.GetDependents(System.String)">
+            <summary>
+            Enumerates dependents(s).
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.GetDependees(System.String)">
+            <summary>
+            Enumerates dependees(s).
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.AddDependency(System.String,System.String)">
+             <summary>
+             <para>Adds the ordered pair (s,t), if it doesn't exist</para>
+             
+             <para>This should be thought of as:</para>   
+             
+               t depends on s
+            
+             </summary>
+             <param name="s"> s must be evaluated first. T depends on S.</param>
+             <param name="t"> t cannot be evaluated until s is.</param>        /// 
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.RemoveDependency(System.String,System.String)">
+            <summary>
+            Removes the ordered pair (s,t), if it exists
+            </summary>
+            <param name="s">The dependee to remove.</param>
+            <param name="t">The dependent to remove.</param>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.ReplaceDependents(System.String,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Removes all existing ordered pairs of the form (s,r).  Then, for each
+            t in newDependents, adds the ordered pair (s,t).
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.ReplaceDependees(System.String,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Removes all existing ordered pairs of the form (r,s).  Then, for each 
+            t in newDependees, adds the ordered pair (t,s).
+            </summary>
+        </member>
+        <member name="T:SpreadsheetUtilities.DependencyGraph.DependencyNode">
+            <summary>
+            A graph node that contains a collection of dependents and dependees.
+            The node knows its identification (name).
+            </summary>
+        </member>
+        <member name="F:SpreadsheetUtilities.DependencyGraph.DependencyNode.id">
+            <summary>
+            The name by which this Node will be identified.
+            </summary>
+        </member>
+        <member name="F:SpreadsheetUtilities.DependencyGraph.DependencyNode.dependents">
+            <summary>
+            The set of Nodes that depend on this Node, mapped with the dependents Id's. 
+            </summary>
+        </member>
+        <member name="F:SpreadsheetUtilities.DependencyGraph.DependencyNode.dependees">
+            <summary>
+            The set of Nodes that this Node depends on, mapped with the dependees Id's.
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.DependencyNode.#ctor(System.String)">
+            <summary>
+            Creates a new Node with the specified id.
+            </summary>
+            <param name="_id">The way the Node will be identified.</param>
+        </member>
+        <member name="P:SpreadsheetUtilities.DependencyGraph.DependencyNode.Id">
+            <summary>
+            The name of this node.
+            </summary>
+        </member>
+        <member name="P:SpreadsheetUtilities.DependencyGraph.DependencyNode.Dependents">
+            <summary>
+            The collection of dependents represented as strings.
+            (the id's of the dependents of this node.)
+            </summary>
+        </member>
+        <member name="P:SpreadsheetUtilities.DependencyGraph.DependencyNode.Dependees">
+            <summary>
+            The collection of dependees represented by strings.
+            (The Id's of the dependees of this node.)
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.DependencyNode.AddDependent(System.String)">
+            <summary>
+            Adds a dependent of this node if it doesn't already exist.
+            </summary>
+            <param name="dependent">A new dependent</param>
+            <returns>True if the dependent was successfully added</returns>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.DependencyNode.AddDependee(System.String)">
+            <summary>
+            Adds a dependee of this node, if it doesn't already exist.
+            </summary>
+            <param name="dependee">A new dependee</param>
+            <returns>True if the dependee was successfully added</returns>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.DependencyNode.RemoveDependent(System.String)">
+            <summary>
+            Removes the dependency the other node has on the other.
+            </summary>
+            <param name="dependent">The dependent to remove</param>
+            <returns>True if dependent was removed successfully</returns>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.DependencyNode.RemoveDependee(System.String)">
+            <summary>
+            Removes the dependency this node has on the other.
+            </summary>
+            <param name="dependee">The dependee to remove</param>
+            <returns>True if the dependee was removed successfully</returns>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.DependencyNode.RemoveAllDependents(System.Collections.Generic.Dictionary{System.String,SpreadsheetUtilities.DependencyGraph.DependencyNode},System.Collections.Generic.HashSet{System.String}@)">
+            <summary>
+            Removes all the dependents of this Node.
+            Will update all dependents' dependees lists
+            that it no longers needs this node.
+            </summary>
+            <param name="nodes">The Collection of dependency nodes.</param>
+            <param name="removed">Collection of removed dependents</param>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.DependencyNode.RemoveAllDependees(System.Collections.Generic.Dictionary{System.String,SpreadsheetUtilities.DependencyGraph.DependencyNode},System.Collections.Generic.HashSet{System.String}@)">
+            <summary>
+            Removes all the dependencies of this Node.
+            Will update all dependees' dependents lists
+            that this node no longers needs it.
+            </summary>
+            <param name="nodes">The Collection of Dependency nodes.</param>
+            <param name="removed">Collection of removed dependees</param>
+        </member>
+    </members>
+</doc>

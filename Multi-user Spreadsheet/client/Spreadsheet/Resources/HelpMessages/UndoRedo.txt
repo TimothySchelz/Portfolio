@@ -1,0 +1,5 @@
+﻿Undo:
+alt+z
+
+Redo:
+alt+y

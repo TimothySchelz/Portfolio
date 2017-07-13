@@ -1,0 +1,18 @@
+﻿Spreadsheets can be saved and re-opened for later use.
+
+To Save: 
+1-Go to the File drop down at the top of the spreadsheet page.
+2-Go down the drop down list and select save.
+3-Go to the desired directory to save the spreadsheet.
+4-Give the spreadsheet a name to be saved to.
+5-Click Save.
+If there are any issues saving the file there will be a pop up window that will inform you that the file could not be saved.
+
+To Open:
+1-Go to the File drop down at the top of the spreadsheet page.
+2-Go down the drop down list and select Open.
+3-Go to the directory that the desired spreadsheet file is saved.
+4-Find the desired spreadsheet to be opened and select it.
+5-Click Open.
+
+If there are any issues opening the file then the spreadsheet file will not be opened in a new window and a pop up window will inform you that the file could not be opened.

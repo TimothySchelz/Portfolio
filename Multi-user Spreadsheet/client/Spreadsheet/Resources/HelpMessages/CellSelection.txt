@@ -1,0 +1,9 @@
+﻿Cells are updated automatically when another cell is selected. 
+Here are the ways that cells can be selected in the spreadsheet:
+
+1-Click on the cell.
+2-Arrow keys will move the cell selection in the direction of the arrow key.
+3-Enter will move the selection down the spreadsheet.
+4-Shift + Enter will move the selection up the spreadsheet.
+5-Tab will move the selection right on the spreadsheet.
+6-Shift + Tab will move the selection left on the spreadsheet.

@@ -1,0 +1,16 @@
+﻿Formulas in the spreadsheet are designed to combine the numeric values of one or more cells in the spreadsheet.
+
+1-To start a formula put "=" first in the cell.
+2-A formula can do the following operations +,-,*,/ and can use parenthesis ().
+3-A formula must be built with valid cells which have numberic values. (Valid cells are a1-z99 and everything between in the spreadsheet grid) 
+
+Formulas can be built in chains meaning cells with formulas can have their formula reference a cell that has a formula in that cell.
+
+Avoid circular dependencies in the spreadsheet. Meaning in a chain of dependent values of cells a cell cannot be dependent on its own value at any point.
+If a circular dependency happens in the spreadsheet a pop up window will inform you and the spreadsheet will not change.
+
+If step 3 is not followed then an ERROR will appear in the cell which broke the step as well as all of its dependent cells in the spreadsheet.
+
+Formula Example: 
+
+		=(a1+c1)/2

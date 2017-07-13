@@ -1,0 +1,7 @@
+﻿The spreadsheet cell can have three different types of Data:
+
+1-Letters and words (which can contain numbers).
+2-Numbers
+3-Formulas (To build a formula start the cell with = then write a formula)
+
+There is more information on formulas in the Formula section of the Help drop down.
